@@ -17,4 +17,32 @@ body{
     width: var(--size);
     height: var(--size);
 }
+#front {
+    background: url(./media/basic-pics/1.jpg) no-repeat center/cover;
+    transform: translateZ( calc(var(--size) / 2) );
+}
+#bottom {
+    background: url(./media/basic-pics/2.jpg) no-repeat center/cover;
+    transform: rotateX(270deg) translateY(calc(var(--size) / 2) );
+    transform-origin: bottom center;
+}
+#top {
+    background: url(./media/basic-pics/3.jpg) no-repeat center/cover;
+    transform: rotateX(-270deg) translateY(calc(-1 *(var(--size) / 2) ));
+    transform-origin: top center;
+}
+#left {
+    background: url(./media/basic-pics/4.jpg) no-repeat center/cover;
+    transform: rotateY(270deg) translateX(calc(-1 *(var(--size) / 2) ));
+    transform-origin: left center;
+}
+#rigth {
+    background: url(./media/basic-pics/5.jpg) no-repeat center/cover;
+    transform: rotateY(-270deg) translateX(calc(var(--size) / 2) );
+    transform-origin: right center;
+}
+#back {
+    background: url(./media/basic-pics/8.jpg) no-repeat center/cover;
+    transform: rotateY(-180deg) translateZ( -1 *(calc(var(--size) / 2) ));
+}
 /*# sourceMappingURL=style.css.map */
