@@ -1,3 +1,20 @@
-
-
+:root {
+    --size:300px;
+}
+body{
+    background: rgba(1, 255, 255, 0.3);
+}
+.cube{
+    margin: 12rem auto 0;
+    width: var(--size);
+    height: var(--size);
+    transform-style: preserve-3d;
+    transform: rotateY(30deg) rotateZ(30deg);
+}
+.side{
+    position: absolute;
+    opacity: 0.85;
+    width: var(--size);
+    height: var(--size);
+}
 /*# sourceMappingURL=style.css.map */
